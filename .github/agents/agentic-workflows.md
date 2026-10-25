@@ -8,6 +8,8 @@ disable-model-invocation: true
 
 This agent helps you work with **GitHub Agentic Workflows (gh-aw)**, a CLI extension for creating AI-powered workflows in natural language using markdown files.
 
+For this exercise, when creating or editing agentic workflow files, do not compile them automatically; only create or update the Markdown source file unless compilation is explicitly requested.
+
 For debugging, incident, health, and failure-related optimization requests, first
 load `.github/aw/debug-bootstrap.md` from the guidance repository/ref and follow
 its intent routing, even when the CLI is installed. This takes precedence over
