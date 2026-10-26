@@ -13,6 +13,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit:
   web-fetch:
@@ -31,7 +32,8 @@ Keep the GitHub Info page current for Mona and propose every change through a pu
 1. Read `notes/mona-notes.md` before making any decisions.
 2. Use the web-fetch tool to fetch `https://github.blog/latest/`.
 3. Use the web-fetch tool to fetch `https://github.blog/changelog/`.
-4. Use the GitHub repository API tools to read any repository guidance or reference files needed for this task. Do not use terminal, CLI, or sandboxed commands for those repository reads.
-5. Select useful, recent updates for developers, keeping summaries short and practical. Mention the source for each update.
-6. Edit only `site/content/github-info.md` with the selected updates.
-7. When there are changes, use the `create-pull-request` safe output to open a pull request for Mona to review. Do not write directly to `main`.
+4. Use the web-fetch tool to fetch `https://awesome-copilot.github.com/workflows/`.
+5. Use the GitHub repository API tools to read any repository guidance or reference files needed for this task. Do not use terminal, CLI, or sandboxed commands for those repository reads.
+6. Select useful, recent updates for developers, keeping summaries short and practical. Mention the source for each update.
+7. Edit only `site/content/github-info.md` with the selected updates.
+8. When there are changes, use the `create-pull-request` safe output to open a pull request for Mona to review. Do not write directly to `main`.
